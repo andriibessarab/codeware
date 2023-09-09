@@ -1,0 +1,73 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;600&family=Nanum+Gothic&family=Pacifico&family=Press+Start+2P&display=swap");
+
+html,
+body,
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Code", serif;
+}
+
+// Generic background classes
+.bg-blue {
+  background: $accent-blue;
+}
+.bg-red {
+  background: $accent-red;
+}
+.bg-purple {
+  background: $accent-purple;
+}
+.bg-yellow {
+  background: $accent-yellow;
+}
+.bg-dark-gray {
+  background: $background-dark;
+}
+
+// Border colors
+.border-blue {
+  border-color: $accent-blue;
+}
+.border-red {
+  border-color: $accent-red;
+}
+.border-purple {
+  border-color: $accent-purple;
+}
+.border-yellow {
+  border-color: $accent-yellow;
+}
+.border-dark-gray {
+  border-color: $background-dark;
+}
+
+// Darken background on hover
+.bg-hover-darken:hover {
+  filter: brightness(0.8);
+  transition: filter 0.3s ease;
+}
+
+// Border width
+.border-width-thin {
+  border-width: $border-width-thin;
+}
+.border-width-medium {
+  border-width: $border-width-medium;
+}
+.border-width-thick {
+  border-width: $border-width-thick;
+}
+
+// Generic border radius classes
+.border-radius-small {
+  border-radius: $border-radius-small;
+}
+.border-radius-medium {
+  border-radius: $border-radius-medium;
+}
+.border-radius-large {
+  border-radius: $border-radius-large;
+}
