@@ -1,0 +1,51 @@
+// Background colors
+$background-dark: #3D3D3D;
+$background-light: #FFF;
+
+// Generic colors
+$generic-white: #FFF;
+$generic-light: #D9D9D9;
+$generic-medium: #868686;
+$generic-dark: #585858;
+$generic-black: #000;
+
+// Accent colors
+$accent-blue: #45C3F1;
+$accent-red: #F1595F;
+$accent-purple: #AF61AC;
+$accent-yellow: #FAC333;
+
+// Shadow colors
+$shadow-black-color: rgba(0, 0, 0, 0.25);
+
+// Shadow
+$shadow-black: drop-shadow(0px 4px 4px $shadow-black-color);
+
+// Fonts families
+$font-body: 'Arial', sans-serif;
+$font-heading: 'Helvetica', sans-serif;
+
+// Font sizes
+$font-size-small: 1rem;
+$font-size-medium: 1.125rem;
+$font-size-large: 1.25rem;
+
+// Spacing
+$spacing-small: 1rem;
+$spacing-medium: 2rem;
+$spacing-large: 3rem;
+
+// Border width
+$border-width-thin: 1px;
+$border-width-medium: 2px;
+$border-width-thick: 4px;
+
+// Border radius
+$border-radius-small: 8px;
+$border-radius-medium: 14px;
+$border-radius-large: 20px;
+
+// Breakpoints
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
