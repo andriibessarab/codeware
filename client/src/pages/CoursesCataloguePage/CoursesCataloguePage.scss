@@ -1,0 +1,80 @@
+@import "../../styles/variables";
+
+.courses-container {
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding:0.5rem 1rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.row {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 15vh;
+
+  max-width: $breakpoint-large;
+
+  padding: 0.5rem 0;
+  gap: 20px;
+
+  filter: $shadow-black;
+}
+
+.col {
+  border: $accent-yellow solid $border-width-thin;    // color, type, width
+  background: $background-semitransparent;            // color only
+  border-radius: $border-radius-medium;
+  filter: $shadow-black;
+
+  p {
+    color: $generic-light;
+  }
+  h3 {
+    color: $generic-white;
+  }
+
+  padding: 1rem;
+  width: 50%;
+
+  &:hover {
+    background: $background-dark;
+  }
+}
+
+.course-overview-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-name-container{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  img{
+    width:60px;
+  }
+}
+
+.course-percentage-container{
+  display: flex;
+  align-items: center;    // vertical
+  justify-content: end;   // horizontal
+}
+
+@media only screen and (max-width: $breakpoint-medium) {
+  .row {
+    height:9vh;
+  }
+}
