@@ -8,7 +8,7 @@ const Header = () => {
             <div className="header-container">
                 <header className="border-radius-small bg-dark-gray">
                     <div className="header-left">
-                        <Link to="all-courses">Courses</Link>
+                        <Link to="courses">Courses</Link>
                         <Link to="projects">Projects</Link>
                         <Link to="forums">Forums</Link>
                     </div>
